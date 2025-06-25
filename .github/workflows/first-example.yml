@@ -13,6 +13,6 @@ jobs:
               run: ls
 
             - name: read file
-              run: cat README.md || echo "README.md not found"
+              run: cat README.md 
 
         
