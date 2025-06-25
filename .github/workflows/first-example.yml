@@ -12,7 +12,7 @@ jobs:
             - name: list files
               run: ls
 
-            - name: check current directory contents
-              run: ls -la
+            - name: read file
+              run: cat README.md || echo "README.md not found"
 
         
