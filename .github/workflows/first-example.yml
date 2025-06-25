@@ -12,7 +12,7 @@ jobs:
             - name: list files
               run: ls
 
-            - name: read file
-              run: cat README.md
+            - name: check current directory contents
+              run: ls -la
 
         
